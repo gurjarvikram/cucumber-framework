@@ -40,7 +40,7 @@ node_modules/
 *.war
 *.jar
 
-# Sensitive configuration files (customize as needed)
+ Sensitive configuration files (customize as needed)
 /src/main/resources/config.properties
 /src/main/resources/*.yaml
 /src/main/resources/*.env
@@ -48,3 +48,53 @@ node_modules/
 # Gradle files
 /.gradle/
 /build/
+# === Java, Maven & Build Artifacts ===
+/target/
+/out/
+/build/
+/.gradle/
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+/.metadata/
+
+# === IntelliJ IDEA & VS Code ===
+.idea/
+.vscode/
+*.iml
+
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs, temp files, system clutter ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+
+# === Extent Report (dynamic folders & outputs) ===
+/test-output/
+/test-output/screenshots/
+/test-output/*.html
+/test-output/*.json
+/test-output/ExtentReport-*/
+ExtentReport-*/
+
+# === Cucumber Reports (if generated) ===
+/cucumber-reports/
+/reports/
+/testSuites/*.log
+/testSuites/*.tmp
+
+# === Node (if JS tools used) ===
+node_modules/
+
+# === Sensitive Configs (optional) ===
+/src/main/resources/config.properties
+/src/main/resources/*.yaml
+/src/main/resources/*.env
